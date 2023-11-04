@@ -23,6 +23,32 @@ span {
   margin: 0 auto;
   position: relative;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cột có chiều rộng bằng nhau */
+  gap: 20px; /* Khoảng cách giữa các ô */
+}
+
+/* Grid items */
+.grid-item {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#video {
+  position: relative;
+  left: 30%;
+  top: 95%;
+}
+
+#player {
+  margin: 0 auto;
+  position: relative;
+}
+
 .balloon {
   width: 738px;
   margin: 0 auto;
