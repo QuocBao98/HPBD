@@ -1,7 +1,15 @@
 window.onload = function () {
-  // setTimeout(() => {
-  //   showMessage();
-  // }, 4000);
+  setTimeout(() => {
+    showMessage();
+  }, 4000);
+
+  setTimeout(function () {
+    var element = document.getElementById("avatar");
+
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
+  }, 3000);
 };
 
 if (document.location.search.match(/type=embed/gi)) {
